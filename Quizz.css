@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 104px;
+    width: 100%;
+    background-color: rgb(255,41,117);
+}
+
+header #logo{
+    height: 100%;
+    width: 104px;
+    position: relative;
+    float: left;
+    background-color: transparent;
+} 
+header #logo img{
+    height: calc(100% - 8px);
+    width: 96px;
+    padding: 4px;
+    box-sizing: content-box;
+} 
+header #txtheader{
+    height: 100%;
+    width: calc(100% - 208px);
+    position: relative;
+    float: left;
+} 
+header #txtheader p{
+    margin-top: 26px;
+    font-size: 210%;
+    box-sizing: content-box;
+}
+header #FIF{
+    height: 100%;
+    width: 104px;
+    position: relative;
+    float: left;
+    background-color: transparent;
+} 
+header #FIF img{
+    height: calc(100% - 8px);
+    width: 80px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: content-box;
+} 
+
+
+main{
+    height: calc(100% - 104px);
+    width: 100%;
+    
+}
+main #ext{
+    height: 100%;
+    width: 100%;
+    background-image: url("mainpics/screen.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+main #ext #int{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+    top: 10%; 
+    left: 10%;
+}
+main #ext #int #izq{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+main #ext #int #izq .left{
+    height: 50%;
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+}
+main #ext #int #izq .right{
+    height: 50%;
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+}
+main #ext #int #der{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+main #ext #int #der #upper{
+    height: 46%;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom-style: double;
+    border-bottom-width: 6px;
+    position: relative;
+}
+main #ext #int #der #upper #top{
+    margin-top: 4%;
+    font-size: 270%;
+    margin-bottom: 7%;
+    font-style: oblique;
+    color: rgb(255,144,31);
+}
+main #ext #int #der #upper #second{
+    font-size: 190%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(140,30,255);
+}
+main #ext #int #der #non{
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+}
+main #ext #int #der #non #BComenzar{
+    margin-top: 9%;
+    height: 56px;
+    width: 35%;
+    border-style: none;
+    border-radius: 32px;
+    background-color: darkturquoise;
+    color: black;
+    font-size: 125%;
+}
+

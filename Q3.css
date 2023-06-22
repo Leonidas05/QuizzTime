@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 104px;
+    width: 100%;
+    background-color: rgb(255,41,117);
+}
+header #logo{
+    height: 100%;
+    width: 104px;
+    position: relative;
+    float: left;
+    background-color: transparent;
+} 
+header #logo img{
+    height: calc(100% - 8px);
+    width: 96px;
+    padding: 4px;
+    box-sizing: content-box;
+} 
+header #txtheader{
+    height: 100%;
+    width: calc(100% - 208px);
+    position: relative;
+    float: left;
+} 
+header #txtheader p{
+    margin-top: 26px;
+    font-size: 210%;
+    box-sizing: content-box;
+}
+header #FIF{
+    height: 100%;
+    width: 104px;
+    position: relative;
+    float: left;
+    background-color: transparent;
+} 
+header #FIF img{
+    height: calc(100% - 8px);
+    width: 80px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: content-box;
+} 
+
+
+main{
+    height: calc(100% - 104px);
+    width: 100%;   
+    background-image: url("mainpics/screen2.jpg");
+    background-size: 100% 100%;
+}
+main #centro{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+main #centro #head{
+    height: 50%;
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    font-size: 200%;
+}
+main #centro #head #p1{  
+    margin-left: 12%;
+    color: gold;
+    margin-bottom: 8px;
+    font-size: 130%;
+}
+main #centro #head #p2{
+    margin-top: 10%;
+    color: rgb(255, 13, 182);
+}
+main #centro #lista{
+    height: 50%;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 150%;
+    color: white;
+}
+main #centro #lista #BInicio{
+    margin-top: 10%;
+    margin-left: 60%;
+    height: 56px;
+    width: 35%;
+    border-style: none;
+    border-radius: 32px;
+    background-color: darkturquoise;
+    color: black;
+    font-size: 115%;
+}

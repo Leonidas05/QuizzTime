@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 104px;
+    width: 100%;
+    background-color: rgb(255,41,117);
+}
+
+header #logo{
+    height: 100%;
+    width: 104px;
+    position: relative;
+    float: left;
+    background-color: transparent;
+} 
+header #logo img{
+    height: calc(100% - 8px);
+    width: 96px;
+    padding: 4px;
+    box-sizing: content-box;
+} 
+header #txtheader{
+    height: 100%;
+    width: calc(100% - 208px);
+    position: relative;
+    float: left;
+} 
+header #txtheader p{
+    margin-top: 26px;
+    font-size: 210%;
+    box-sizing: content-box;
+}
+header #FIF{
+    height: 100%;
+    width: 104px;
+    position: relative;
+    float: left;
+    background-color: transparent;
+} 
+header #FIF img{
+    height: calc(100% - 8px);
+    width: 80px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: content-box;
+} 
+
+
+main{
+    height: calc(100% - 104px);
+    width: 100%;   
+}
+
+main #padre{
+    height: 100%;
+    width: 100%;
+    background-image: url("mainpics/screen2.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+main #padre #hijo{
+    height: 100%;
+    width: 80%;
+    /* background-color: white; */
+    box-sizing: border-box;
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+main #padre #hijo #pregunta{
+    width: 100%;
+    height: 20%;
+    /* background-color: lightseagreen; */
+    box-sizing: border-box;
+    padding-top: 2%;
+    font-size: 180%;
+    color: white;   
+}
+main #padre #hijo #pregunta #pregunta1{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+main #padre #hijo #pregunta .countdown{   
+    width: 20%;
+    height: 100%; 
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    font-size: 110%;
+    color: white;
+    text-align: center;
+}
+main #padre #hijo #imagen{
+    width: 55%;
+    height: 70%;
+    /* background-color: darkred; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #padre #hijo #imagen #picture{
+    width: 90%;
+    height: 90%;
+    border: 8px solid mediumvioletred;
+    box-sizing: border-box;
+}
+main #padre #hijo #respuestas{
+    width: 45%;
+    height: 70%;
+    /* background-color: mediumorchid; */
+    position: relative;
+    float: left;
+}
+main #padre #hijo #respuestas #A{
+    margin-top: 10%;
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+    border: 4px solid white;
+    border-radius: 32px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 3%;
+    box-sizing: border-box;
+    font-size: 140%;
+    font-weight: 600;
+}
+main #padre #hijo #respuestas #B{
+    margin-top: 5%;
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    border: 4px solid white;
+    border-radius: 32px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 3%;
+    box-sizing: border-box;
+    font-size: 140%;
+    font-weight: 600;
+}
+main #padre #hijo #respuestas #C{
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    border: 4px solid white;
+    border-radius: 32px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 3%;
+    box-sizing: border-box;
+    font-size: 140%;
+    font-weight: 600;
+}
+main #padre #hijo .progress-bar{
+    width: 100%;
+    height: 10%;
+    /* background-color: darkorange; */
+}
+main #padre #hijo .progress-bar .progress{
+    border: 1px solid #000;
+    top: 20%;
+    height: 70%;
+    background-color: #4CAF50;
+    width: 100%;
+    transition: width 1s linear;
+    box-sizing: border-box;
+}
